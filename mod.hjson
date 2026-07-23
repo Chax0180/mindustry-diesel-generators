@@ -1,0 +1,10 @@
+name: chad
+displayName: Mindustry: Diesel Generators
+description: Inspired by a certain Create mod addon. Adds the ability to refine oil into various other fluids which can be used for a variety of purposes. [scarlet]WARNING: [red]Changes the output of the Spore Press, and will break machines that use it to produce oil![][]
+subtitle: Don't tell the US
+
+author: Chax0180
+minGameVersion: 136
+version: 0.0
+hidden: false
+hideBrowser: false
