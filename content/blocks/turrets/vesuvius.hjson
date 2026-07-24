@@ -38,7 +38,7 @@ ammoTypes: {
     bulletInterval: 3
     intervalDelay: 5
 intervalBullet:[
-FireBulletType
+type: FireBulletType
 ]
   }
 }
