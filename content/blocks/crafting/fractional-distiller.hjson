@@ -36,7 +36,7 @@ petroleum-gas/0.2
 gasoline/0.2
 heavy-oil/0.4
 ]
-liquidOutputDirections: [1, 4, 3]
+liquidOutputDirections: [1, 0, 3]
 outputItem: coal/1
 craftTime: 120
 
