@@ -37,8 +37,8 @@ ammoTypes: {
     incendAmount: 2
     bulletInterval: 3
     intervalDelay: 5
-intervalBullet:[
+intervalBullet:{
 type: FireBulletType
-]
+}
   }
 }
