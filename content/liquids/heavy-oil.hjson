@@ -8,3 +8,8 @@ explosiveness: 0.15
 flammability: 1
 boilpoint: 3
 capPuddles: true
+canStayOn:[
+water
+cryofluid
+arkycite
+]
