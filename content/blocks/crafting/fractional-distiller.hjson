@@ -87,7 +87,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: oil
-      padding: 15
+      padding: 13
     }
     {
       type: DrawDefault
