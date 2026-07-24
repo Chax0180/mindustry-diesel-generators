@@ -1,0 +1,26 @@
+color: e0c1a6
+transitionDamage: 8
+
+affinities:[
+burning
+melting
+blasted
+shocked
+]
+opposites:[
+wet
+]
+
+effect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    lifetime: 20
+    interp: circleOut
+    cone: 180
+    colorFrom: e0c1a6
+    colorTo: e0c1a6
+    sizeFrom: 5
+    sizeTo: 0
+  }
+effectChance: 0.3
