@@ -1,0 +1,10 @@
+name: Gasoline
+description: An explosive, flammable liquid used for the production of energy.
+coolant: false
+color: c4b09f
+explosiveness: 2
+flammability: 1.5
+
+effect: doused
+parent: oil
+incinerable: false
