@@ -1,0 +1,45 @@
+type: ConsumeGenerator
+name: Gasoline Engine
+description: Generates power by combusting gasoline.
+size: 2
+category: power
+research: fractional-distiller
+  
+requirements: [
+lead/30
+silicon/20
+]
+consumes: {
+  liquid: gasoline/0.016666666666666666666666666666666666667
+}
+hasLiquids: true
+liquidCapacity: 10
+powerProduction: 6
+  
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.18
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPistons
+      suffix: -piston
+      sinMag: 2
+      sinScl: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -alternator
+      spinSprite: true
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -cap
+    }
+  ]
+}
