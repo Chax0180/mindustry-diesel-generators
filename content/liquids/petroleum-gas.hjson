@@ -1,0 +1,15 @@
+name: Petroleum Gas
+description: Used to produce plastics and energy.
+
+heatCapacity: 0
+explosiveness: 1.5
+flammability: 1
+temperature: 0.6
+
+coolant: false
+gas: true
+
+color: d69ac7
+incinerable: false
+
+parent: oil
