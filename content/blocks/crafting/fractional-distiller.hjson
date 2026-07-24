@@ -53,14 +53,31 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawRegion
+      suffix: -layer1
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: gasoline
       padding: 7
     }
     {
+      type: DrawRegion
+      suffix: -layer2
+    }
+    {
       type: DrawLiquidTile
-      drawLiquid: gasoline
+      drawLiquid: petroleum-gas
       padding: 11
+    }
+    {
+      type: DrawRegion
+      suffix: -layer3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      padding: 15
     }
     {
       type: DrawDefault
