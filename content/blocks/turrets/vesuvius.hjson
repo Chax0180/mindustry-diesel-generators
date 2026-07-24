@@ -60,7 +60,6 @@ lifetime: 1
 damage: 28
 }
 }
-}
   heavy-oil: {
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
@@ -102,5 +101,6 @@ type: FireBulletType
     rangeChange: 80
 fragBullet:{
 type: FireBulletType
+}
 }
 }
