@@ -11,15 +11,18 @@ category: turret
 loopSound: loopSpray
 targetAir: false
 unitSort: farthest
-  
+consumes:[
+power: 2
+]
+
 research: wave
   
 range: 300
 requirements: [
-lead/200
-metaglass/80
-silicon/80
-plastanium/45
+copper/100
+lead/400
+metaglass/100
+plastanium/100
 ]
   
 inaccuracy: 4
