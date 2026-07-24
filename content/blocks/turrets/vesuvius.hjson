@@ -60,7 +60,7 @@ intervalBullet:{
       width: 10
       height: 0.01
       hittable: false
-      smokeEffect: {
+      shootEffect: {
           type: ParticleEffect
           particles: 50
           length: 240
