@@ -79,7 +79,7 @@ type: FireBulletType
     bulletInterval: 5
     intervalDelay: 15
     intervalRandomSpread: 5
-    rangeChange: 100
+    rangeChange: 80
 intervalBullet:{
 type: FireBulletType
 }
