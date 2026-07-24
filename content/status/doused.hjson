@@ -1,5 +1,6 @@
+name: Doused
 color: e0c1a6
-transitionDamage: 8
+transitionDamage: 24
 
 affinities:[
 burning
