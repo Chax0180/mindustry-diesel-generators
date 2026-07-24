@@ -27,7 +27,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: oil
     speed: 5
-    lifetime: 65
+    lifetime: 60
     knockback: 0.8
     orbSize: 3
     status: tarred
