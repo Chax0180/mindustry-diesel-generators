@@ -11,7 +11,7 @@ loopSound: loopSpray
   
 research: wave
   
-range: 210
+range: 300
 requirements: [
 lead/200
 metaglass/80
@@ -27,7 +27,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: oil
     speed: 5
-    lifetime: 40
+    lifetime: 60
     knockback: 0.8
     orbSize: 3
     status: tarred
@@ -36,7 +36,7 @@ ammoTypes: {
     puddleSize: 4
     incendAmount: 2
     bulletInterval: 3
-    intervalDelay: 5
+    intervalDelay: 30
 intervalBullet:{
 type: FireBulletType
 }
