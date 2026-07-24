@@ -68,9 +68,9 @@ drawer: {
     {
       type: DrawLiquidOutputs
       liquidOutputRegions:[
-fractional-distiller-petroleum-gas-output
-fractional-distiller-gasoline-output
-fractional-distiller-heavy-oil-output
+-petroleum-gas-output
+-gasoline-output
+-heavy-oil-output
     ]
     }
   ]
