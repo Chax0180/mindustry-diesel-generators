@@ -12,4 +12,4 @@ gas: true
 color: d69ac7
 incinerable: false
 
-parent: oil
+research: oil
