@@ -8,6 +8,7 @@ liquidCapacity: 120
 recoil: 1
 category: turret
 loopSound: loopSpray
+targetAir: false
   
 research: wave
   
