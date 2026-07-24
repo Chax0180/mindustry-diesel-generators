@@ -10,13 +10,13 @@ outputsLiquid: true
 itemCapacity: 20
 liquidCapacity: 480
 
-requirements:{
+requirements:[
 copper/600
 lead/280
 metaglass/120
 graphite/100
 silicon/120
-}
+]
 
 outputLiquids:[
 petroleum-gas/0.2
