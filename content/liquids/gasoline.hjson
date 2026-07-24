@@ -1,5 +1,4 @@
-name: gasoline
-displayName: Gasoline
+name: Gasoline
 description: Used for the production of energy. Explosive; handle with care.
 
 coolant: false
