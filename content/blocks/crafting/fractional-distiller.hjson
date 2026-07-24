@@ -10,6 +10,13 @@ outputsLiquid: true
 itemCapacity: 20
 liquidCapacity: 480
 
+consumes:{
+power: 6
+liquids: [
+    oil/0.8
+]
+}
+
 requirements:[
 copper/600
 lead/280
