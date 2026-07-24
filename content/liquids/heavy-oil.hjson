@@ -1,0 +1,9 @@
+name: Heavy Oil
+description: Not very useful on its own; can be cracked into more useful components.
+viscosity: 1
+coolant: false
+research: oil
+color: b86b5c
+explosiveness: 0.15
+flammability: 1
+boilpoint: 3
