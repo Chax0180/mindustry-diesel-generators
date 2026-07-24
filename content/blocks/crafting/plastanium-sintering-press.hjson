@@ -1,9 +1,6 @@
 type: GenericCrafter
-
 name: Plastanium Sintering Press
-
-description: Presses oil and ground-up titanium into plastanium. Requires cryofluid as a coolant.
-
+description: Presses petroleum gas and ground-up titanium into plastanium.
 size: 3
 
 hasItems: true
@@ -25,11 +22,11 @@ consumes: {
     titanium/6
   ]
   liquids: [
-  cryofluid/0.2
-  oil/0.4
+  petroleum-gas/0.2
+  oil/0.2
   ]
   }
-outputItem: plastanium/4
+outputItem: plastanium/6
 
 craftTime: 60
 craftEffect: formsmoke
@@ -46,7 +43,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: cryofluid
+      drawLiquid: oil
       padding: 1
     }
     {
@@ -55,7 +52,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: oil
+      drawLiquid: petroleum-gas
       padding: 8.5
     }
     {
@@ -68,6 +65,6 @@ drawer: {
     }
   ]
 }
-ambientSound: machine
+ambientSound: loopMachine
 ambientSoundVolume: 0.25
 squareSprite: false
