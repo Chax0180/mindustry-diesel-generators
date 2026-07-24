@@ -1,5 +1,5 @@
 ammoTypes:{
-oil-gasoline:{
+gasoline:{
 type: LiquidBulletType
 lifetime: 49
 speed: 4
