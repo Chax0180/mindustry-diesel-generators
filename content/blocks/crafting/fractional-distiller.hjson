@@ -38,7 +38,7 @@ liquid: petroleum-gas
 amount: 0.2
 }
 {
-liquid: gasoline
+liquid: hydrogen
 amount: 0.2
 }
 {
