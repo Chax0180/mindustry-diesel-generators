@@ -1,5 +1,4 @@
-name: petroleum-gas
-displayName: Petroleum Gas
+name: Petroleum Gas
 description: Used to produce plastics and energy.
 
 heatCapacity: 0
