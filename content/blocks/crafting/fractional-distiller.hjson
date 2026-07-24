@@ -1,1 +1,28 @@
+type: GenericCrafter
+name: Fractional Distiller
+description: Heats up oil to high temperatures, separating it into different components. Produces bitumen as a by-product.
+size: 4
+health: 30
+hasItems: true
+hasLiquids: true
+hasPower: true
+outputsLiquid: true
+itemCapacity: 20
+liquidCapacity: 480
 
+requirements:{
+copper/600
+lead/280
+metaglass/120
+graphite/100
+silicon/120
+}
+
+outputLiquids:[
+petroleum-gas/0.2
+gasoline/0.2
+heavy-oil/0.4
+]
+liquidOutputDirections: 3
+outputItem: bitumen
+craftTime: 120
