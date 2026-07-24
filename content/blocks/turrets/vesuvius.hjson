@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Vesuvius
 description: Fires a stream of flammable liquid, igniting in the air and setting fire to a large area.
 size: 3
-reload: 2
+reload: 5
 hasLiquids: true
 liquidCapacity: 60
 
@@ -37,42 +37,17 @@ ammoTypes: {
     statusDuration: 120
     damage: 0.2
     puddleSize: 6
-    bulletInterval: 5
+    bulletInterval: 10
     intervalRandomSpread: 5
+    intervalDelay: 15
     fragRandomSpread: 5
-    fragBullets: 2
+    fragBullets: 3
     rangeChange: -80
 fragBullet:{
 type: FireBulletType
 }
 intervalBullet:{
-    bullet: {
-      damage: 40
-      shootEffect: none
-      speed: 6
-      pierce: true
-      pierceBuilding: true
-      status: absolute-overload
-      statusDuration: 30
-      makeFire: false
-      lifetime: 20
-      despawnEffect: none
-      width: 10
-      height: 0.01
-      hittable: false
-      shootEffect: {
-          type: ParticleEffect
-          particles: 50
-          length: 240
-          lifetime: 120
-          interp: circleOut
-          cone: 10
-          colorFrom: b58aff
-          colorTo: 6b3aba
-          sizeFrom: 6
-          sizeTo: 0.6
-        }
-     }
+type: FireBulletType
 }
 }
   heavy-oil: {
@@ -90,9 +65,13 @@ intervalBullet:{
     puddleSize: 4
     bulletInterval: 5
     intervalRandomSpread: 5
+    intervalDelay: 15
     fragRandomSpread: 5
-    fragBullets: 2
+    fragBullets: 3
 fragBullet:{
+type: FireBulletType
+}
+intervalBullet:{
 type: FireBulletType
 }
 }
@@ -109,12 +88,16 @@ type: FireBulletType
     statusDuration: 60
     damage: 0.2
     puddleSize: 8
-    bulletInterval: 3
+    bulletInterval: 5
     intervalRandomSpread: 5
+    intervalDelay: 15
     fragRandomSpread: 5
     fragBullets: 2
     rangeChange: 80
 fragBullet:{
+type: FireBulletType
+}
+intervalBullet:{
 type: FireBulletType
 }
 }
