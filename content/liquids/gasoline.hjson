@@ -1,4 +1,6 @@
-name: Gasoline
+name: gasoline
+displayName: Gasoline
+
 description: Used for the production of energy. Explosive; handle with care.
 coolant: false
 color: c4b09f
