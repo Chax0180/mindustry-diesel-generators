@@ -9,6 +9,9 @@ hasPower: true
 outputsLiquid: true
 itemCapacity: 20
 liquidCapacity: 480
+rotate: true
+rotateDraw: false
+
 
 consumes:{
 power: 6
