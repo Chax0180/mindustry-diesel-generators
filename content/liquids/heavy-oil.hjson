@@ -1,4 +1,6 @@
-name: Heavy Oil
+name: heavy-oil
+displayName: Heavy Oil
+
 description: Not very useful on its own; can be cracked into more useful components.
 viscosity: 0.6
 coolant: false
