@@ -84,7 +84,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawLiquidOutputs
+      type: DrawRegion
+        suffix: -gasoline-output1
     }
   ]
 }
