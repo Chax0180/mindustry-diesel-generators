@@ -19,7 +19,7 @@ silicon/80
 plastanium/45
 ]
   
-inaccuracy: 2
+inaccuracy: 4
 ammoTypes: {
   oil: {
     despawnEffect: hitLiquid
