@@ -10,6 +10,7 @@ recoil: 1
 category: turret
 loopSound: loopSpray
 targetAir: false
+unitSort: furthest
   
 research: wave
   
