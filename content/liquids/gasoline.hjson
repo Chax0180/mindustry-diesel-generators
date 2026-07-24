@@ -6,5 +6,5 @@ explosiveness: 2
 flammability: 1.5
 
 effect: doused
-parent: oil
+research: oil
 incinerable: false
