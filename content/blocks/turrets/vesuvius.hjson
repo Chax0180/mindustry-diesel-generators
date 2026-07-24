@@ -2,7 +2,7 @@ type: LiquidTurret
 name: Vesuvius
 description: Fires a stream of flammable liquid, igniting in the air and burning enemy ground targets.
 size: 3
-reload: 5
+reload: 2
 hasLiquids: true
 liquidCapacity: 120
 recoil: 1
@@ -27,7 +27,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: oil
     speed: 5
-    lifetime: 45
+    lifetime: 40e
     knockback: 0.8
     orbSize: 3
     status: tarred
