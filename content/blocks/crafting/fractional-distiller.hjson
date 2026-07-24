@@ -94,11 +94,6 @@ drawer: {
     }
     {
       type: DrawLiquidOutputs
-    liquidOutputRegions:[
-petroleum-gas
-gasoline
-heavy-oil
-]
     }
   ]
 }
