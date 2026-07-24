@@ -18,6 +18,9 @@ power: 6
 liquids: [
     oil/0.8
 ]
+items: [
+pyratite/1
+]
 }
 
 requirements:[
