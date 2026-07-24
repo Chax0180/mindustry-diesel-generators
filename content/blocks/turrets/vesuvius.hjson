@@ -37,11 +37,28 @@ ammoTypes: {
     damage: 0.2
     puddleSize: 6
     bulletInterval: 5
-    intervalDelay: 15
     intervalRandomSpread: 5
+    fragRandomSpread: 5
+    fragBullets: 2
     rangeChange: -80
 fragBullet:{
 type: FireBulletType
+}
+intervalBullet:{
+type: BulletType
+pierce: true
+pierceBuilding: true
+pierceCap: 2
+status: burning
+statusDuration: 300
+shootEffect: shootSmallFlame
+hitEffect: hitFlameSmall
+despawnEffect: none
+hittable: false
+keepVelocity: false
+lifetime: 1
+damage: 28
+}
 }
 }
   heavy-oil: {
@@ -58,8 +75,9 @@ type: FireBulletType
     damage: 0.4
     puddleSize: 4
     bulletInterval: 5
-    intervalDelay: 15
     intervalRandomSpread: 5
+    fragRandomSpread: 5
+    fragBullets: 2
 fragBullet:{
 type: FireBulletType
 }
@@ -78,8 +96,9 @@ type: FireBulletType
     damage: 0.2
     puddleSize: 8
     bulletInterval: 3
-    intervalDelay: 15
     intervalRandomSpread: 5
+    fragRandomSpread: 5
+    fragBullets: 2
     rangeChange: 80
 fragBullet:{
 type: FireBulletType
