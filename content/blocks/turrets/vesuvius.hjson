@@ -35,8 +35,10 @@ ammoTypes: {
     damage: 0.2
     puddleSize: 4
     incendAmount: 2
-intervalBullet:{
+    bulletInterval: 3
+    intervalDelay: 5
+intervalBullet:[
 FireBulletType
-}
+]
   }
 }
