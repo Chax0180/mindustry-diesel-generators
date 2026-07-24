@@ -55,12 +55,12 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: gasoline
-      padding: 6
+      padding: 7
     }
     {
       type: DrawLiquidTile
       drawLiquid: gasoline
-      padding: 9
+      padding: 11
     }
     {
       type: DrawDefault
