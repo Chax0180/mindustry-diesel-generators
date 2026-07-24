@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Vesuvius
-description: Fires a stream of flammable liquid, igniting in the air and burning enemy ground targets.
+description: Fires a stream of flammable liquid, igniting in the air and setting fire to a large area.
 size: 3
 reload: 2
 hasLiquids: true
@@ -41,5 +41,25 @@ ammoTypes: {
 intervalBullet:{
 type: FireBulletType
 }
-  }
+}
+  heavy-oil: {
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: heavy-oil
+    speed: 5
+    lifetime: 60
+    knockback: 0.8
+    orbSize: 3
+    status: tarred
+    statusDuration: 120
+    damage: 0.2
+    puddleSize: 4
+    bulletInterval: 5
+    intervalDelay: 15
+    intervalRandomSpread: 5
+intervalBullet:{
+type: FireBulletType
+}
+}
 }
