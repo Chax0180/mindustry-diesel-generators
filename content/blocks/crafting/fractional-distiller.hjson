@@ -33,8 +33,17 @@ silicon/120
 ]
 
 outputLiquids:[
-petroleum-gas/0.2
-gasoline/0.2
+{
+liquid: petroleum-gas
+amount: 0.2
+}
+{
+liquid: gasoline
+}
+{
+liquid: heavy-oil
+amount: 0.4
+}
 heavy-oil/0.4
 ]
 liquidOutputDirections: [1, 0, 3]
