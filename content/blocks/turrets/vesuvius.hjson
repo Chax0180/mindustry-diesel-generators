@@ -40,7 +40,7 @@ ammoTypes: {
     intervalDelay: 15
     intervalRandomSpread: 5
     rangeChange: -80
-intervalBullet:{
+fragBullet:{
 type: FireBulletType
 }
 }
@@ -60,7 +60,7 @@ type: FireBulletType
     bulletInterval: 5
     intervalDelay: 15
     intervalRandomSpread: 5
-intervalBullet:{
+fragBullet:{
 type: FireBulletType
 }
 }
@@ -81,7 +81,7 @@ type: FireBulletType
     intervalDelay: 15
     intervalRandomSpread: 5
     rangeChange: 80
-intervalBullet:{
+fragBullet:{
 type: FireBulletType
 }
 }
