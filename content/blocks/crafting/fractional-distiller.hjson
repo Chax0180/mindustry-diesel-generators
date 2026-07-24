@@ -39,12 +39,12 @@ amount: 0.2
 }
 {
 liquid: gasoline
+amount: 0.2
 }
 {
 liquid: heavy-oil
 amount: 0.4
 }
-heavy-oil/0.4
 ]
 liquidOutputDirections: [1, 0, 3]
 outputItem: coal/1
