@@ -1,5 +1,4 @@
-ammoTypes:{
-gasoline:{
+block.tsunami.ammoTypes.gasoline:{
 type: LiquidBulletType
 lifetime: 49
 speed: 4
