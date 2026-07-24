@@ -46,19 +46,33 @@ fragBullet:{
 type: FireBulletType
 }
 intervalBullet:{
-type: BulletType
-pierce: true
-pierceBuilding: true
-pierceCap: 2
-status: burning
-statusDuration: 300
-shootEffect: shootSmallFlame
-hitEffect: hitFlameSmall
-despawnEffect: none
-hittable: false
-keepVelocity: false
-lifetime: 1
-damage: 28
+    bullet: {
+      damage: 40
+      shootEffect: none
+      speed: 6
+      pierce: true
+      pierceBuilding: true
+      status: absolute-overload
+      statusDuration: 30
+      makeFire: false
+      lifetime: 20
+      despawnEffect: none
+      width: 10
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+          type: ParticleEffect
+          particles: 50
+          length: 240
+          lifetime: 120
+          interp: circleOut
+          cone: 10
+          colorFrom: b58aff
+          colorTo: 6b3aba
+          sizeFrom: 6
+          sizeTo: 0.6
+        }
+     }
 }
 }
   heavy-oil: {
