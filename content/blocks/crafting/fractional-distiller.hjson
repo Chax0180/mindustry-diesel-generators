@@ -36,6 +36,42 @@ petroleum-gas/0.2
 gasoline/0.2
 heavy-oil/0.4
 ]
-liquidOutputDirections: [1, 2, 3]
+liquidOutputDirections: [1, 4, 3]
 outputItem: coal/1
 craftTime: 120
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: heavy-oil
+      padding: 3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gasoline
+      padding: 13
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gasoline
+      padding: 23
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawLiquidOutputs
+      liquidOutputRegions:[
+fractional-distiller-petroleum-gas-output
+fractional-distiller-gasoline-output
+fractional-distiller-heavy-oil-output
+    ]
+    }
+  ]
+}
