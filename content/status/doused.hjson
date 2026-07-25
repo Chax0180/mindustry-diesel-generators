@@ -1,11 +1,9 @@
 name: Doused
 color: e0c1a6
-transitionDamage: 24
 
 affinities:[
 burning
 melting
-blasted
 shocked
 ]
 opposites:[
@@ -16,7 +14,7 @@ effect: {
     type: ParticleEffect
     particles: 1
     length: 0
-    lifetime: 20
+    lifetime: 90
     interp: circleOut
     cone: 180
     colorFrom: e0c1a6
@@ -25,3 +23,4 @@ effect: {
     sizeTo: 0
   }
 effectChance: 0.3
+parentizeEffect: true
