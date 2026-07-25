@@ -5,8 +5,8 @@ viscosity: 0.6
 coolant: false
 research: oil
 color: b86b5c
-explosiveness: 0.15
-flammability: 1
+explosiveness: 1.4
+flammability: 1.4
 boilpoint: 3
 capPuddles: true
 
