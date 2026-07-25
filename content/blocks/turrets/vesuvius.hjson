@@ -99,7 +99,7 @@ type: BasicBulletType
       speed: 0
       pierce: true
       pierceBuilding: true
-      status: burning
+      status: melting
       statusDuration: 240
       makeFire: false
       lifetime: 1
@@ -141,7 +141,7 @@ type: BasicBulletType
       speed: 0
       pierce: true
       pierceBuilding: true
-      status: burning
+      status: melting
       statusDuration: 120
       makeFire: false
       lifetime: 1
