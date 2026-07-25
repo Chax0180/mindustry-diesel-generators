@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Vesuvius
-description: Fires a stream of flammable liquid, igniting in the air and setting fire to a large area.
+description: Fires a stream of flammable liquid which ignites in the air and sets fire to a large area. Carefully considering placement is advised.
 size: 3
 reload: 5
 hasLiquids: true
@@ -11,9 +11,9 @@ category: turret
 loopSound: loopSpray
 targetAir: false
 unitSort: farthest
-consumes:[
-power: 2
-]
+consumes:{
+power: 1
+}
 
 research: wave
   
