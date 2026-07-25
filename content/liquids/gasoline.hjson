@@ -3,8 +3,8 @@ description: Used for the production of energy. Explosive; handle with care.
 
 coolant: false
 color: c4b09f
-explosiveness: 2
-flammability: 1.5
+explosiveness: 2.4
+flammability: 2
 
 effect: doused
 research: oil
