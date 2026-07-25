@@ -1,6 +1,8 @@
 name: Doused
 color: e0c1a6
-transitionDamage: 60
+healthMultiplier: 0.8
+reloadMultiplier: 0.9
+dragMultiplier: 0.8
 
 affinities:[
 burning
