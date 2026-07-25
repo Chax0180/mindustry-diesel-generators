@@ -28,7 +28,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: gasoline
+      drawLiquid: gasoline
       padding: 3
     }
     {
