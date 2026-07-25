@@ -23,7 +23,13 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawDefault
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      liquid: gasoline
+      padding: 3
     }
     {
       type: DrawPistons
@@ -32,14 +38,7 @@ drawer: {
       sinScl: 6
     }
     {
-      type: DrawRegion
-      suffix: -alternator
-      spinSprite: true
-      rotateSpeed: 2
-    }
-    {
-      type: DrawRegion
-      suffix: -cap
+      type: DrawDefault
     }
   ]
 }
