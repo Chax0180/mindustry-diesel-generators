@@ -52,7 +52,7 @@ type: FireBulletType
 intervalBullet:{
 type: BasicBulletType
       damage: 0
-      splashDamage: 32
+      splashDamage: 6
       splashDamageRadius: 30
       shootEffect: none
       speed: 0
@@ -93,7 +93,7 @@ type: FireBulletType
 intervalBullet:{
 type: BasicBulletType
       damage: 0
-      splashDamage: 32
+      splashDamage: 10
       splashDamageRadius: 30
       shootEffect: none
       speed: 0
@@ -135,7 +135,7 @@ type: FireBulletType
 intervalBullet:{
 type: BasicBulletType
       damage: 0
-      splashDamage: 32
+      splashDamage: 12
       splashDamageRadius: 30
       shootEffect: none
       speed: 0
