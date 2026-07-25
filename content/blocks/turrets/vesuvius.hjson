@@ -52,7 +52,7 @@ intervalBullet:{
 type: BasicBulletType
       damage: 0
       splashDamage: 32
-      splashDamageRadius: 5
+      splashDamageRadius: 30
       shootEffect: none
       speed: 0
       pierce: true
@@ -92,7 +92,7 @@ intervalBullet:{
 type: BasicBulletType
       damage: 0
       splashDamage: 32
-      splashDamageRadius: 5
+      splashDamageRadius: 30
       shootEffect: none
       speed: 0
       pierce: true
@@ -133,7 +133,7 @@ intervalBullet:{
 type: BasicBulletType
       damage: 0
       splashDamage: 32
-      splashDamageRadius: 5
+      splashDamageRadius: 30
       shootEffect: none
       speed: 0
       pierce: true
