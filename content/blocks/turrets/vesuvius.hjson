@@ -42,7 +42,6 @@ ammoTypes: {
     puddleSize: 6
     bulletInterval: 2
     intervalRandomSpread: 5
-    intervalDelay: 15
     fragRandomSpread: 5
     fragBullets: 3
     rangeChange: -80
@@ -59,10 +58,9 @@ type: BasicBulletType
       pierce: true
       pierceBuilding: true
       status: burning
-      statusDuration: 30
+      statusDuration: 210
       makeFire: false
       lifetime: 1
-      despawnEffect: none
       width: 10
       height: 0.01
       hittable: false
@@ -85,7 +83,6 @@ type: BasicBulletType
     puddleSize: 4
     bulletInterval: 2
     intervalRandomSpread: 5
-    intervalDelay: 15
     fragRandomSpread: 5
     fragBullets: 3
 fragBullet:{
@@ -101,10 +98,9 @@ type: BasicBulletType
       pierce: true
       pierceBuilding: true
       status: burning
-      statusDuration: 30
+      statusDuration: 240
       makeFire: false
       lifetime: 1
-      despawnEffect: none
       width: 10
       height: 0.01
       hittable: false
@@ -127,7 +123,6 @@ type: BasicBulletType
     puddleSize: 8
     bulletInterval: 2
     intervalRandomSpread: 5
-    intervalDelay: 15
     fragRandomSpread: 5
     fragBullets: 2
     rangeChange: 80
@@ -144,10 +139,9 @@ type: BasicBulletType
       pierce: true
       pierceBuilding: true
       status: burning
-      statusDuration: 30
+      statusDuration: 120
       makeFire: false
       lifetime: 1
-      despawnEffect: none
       width: 10
       height: 0.01
       hittable: false
