@@ -37,7 +37,7 @@ drawer: {
       sinMag: 1
       sinScl: 10
       sideOffset: 10
-      lenOffset: -0.1
+      lenOffset: 0
     }
     {
       type: DrawDefault
