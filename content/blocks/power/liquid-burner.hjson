@@ -11,7 +11,7 @@ lead/50
 graphite/50
 ]
 
-filterLiquid: flammable
+filterLiquid: ConsumeLiquidFlammable
 
 hasLiquids: true
 liquidCapacity: 10
