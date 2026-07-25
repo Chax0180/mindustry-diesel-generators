@@ -101,7 +101,7 @@ fragBullet:{
 type: FireBulletType
 }
 intervalBullet:{
-    bullet: {
+type: BasicBulletType
       damage: 0
       splashDamage: 32
       splashDamageRadius: 5
