@@ -101,7 +101,35 @@ fragBullet:{
 type: FireBulletType
 }
 intervalBullet:{
-type: FireBulletType
+    bullet: {
+      damage: 40
+      splashDamage: 28
+      splashDamageRadius: 5
+      shootEffect: none
+      speed: 0
+      pierce: true
+      pierceBuilding: true
+      status: burning
+      statusDuration: 30
+      makeFire: false
+      lifetime: 0
+      despawnEffect: none
+      width: 10
+      height: 0.01
+      hittable: false
+      hitEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 5
+          lifetime: 60
+          interp: circleOut
+          cone: 10
+          colorFrom: b58aff
+          colorTo: 6b3aba
+          sizeFrom: 6
+          sizeTo: 0.6
+        }
+     }
 }
 }
 }
