@@ -7,9 +7,9 @@ plans: [
   {
     unit: zenith
     requirements: [
-silicon/195
+silicon/200
 graphite/50
-titanium/90
+titanium/100
 metaglass/50
     ]
     time: 1800
@@ -17,27 +17,28 @@ metaglass/50
   {
     unit: mega
     requirements: [
-silicon/210
+silicon/240
 graphite/50
-titanium/90
+titanium/100
 metaglass/50
-lead/35
+lead/50
     ]
     time: 2100
   }
 ]
+
 requirements: [
-copper/260
-lead/760
-titanium/350
-thorium/650
-metaglass/120
-silicon/170
+copper/500
+lead/800
+titanium/400
+thorium/600
+metaglass/200
+silicon/200
 ]
-research: tetrative-reconstructor
+research: exponential-reconstructor
 category:units
   consumes: {
-liquid: cryofluid/0.2
+liquid: kerosene/0.2
 }
-ambientSound: respawning
+ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
