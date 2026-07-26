@@ -17,6 +17,9 @@ requirements: [
   thorium/10
   silicon/25
 ]
+  consumes: {
+power: 0.5
+}
 
 category: units
 research: payload-router
