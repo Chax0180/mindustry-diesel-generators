@@ -41,7 +41,7 @@ drawer: {
       sinScl: 2
       sides: 8
       sideOffset: 15
-      lenOffset: -0.1
+      lenOffset: -0.2
     }
     {
       type: DrawDefault
