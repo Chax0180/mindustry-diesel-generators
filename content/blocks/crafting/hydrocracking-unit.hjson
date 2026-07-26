@@ -1,0 +1,96 @@
+type: GenericCrafter
+name: Hydrocracking Unit
+description: Breaks up heavy oil into diesel, kerosene, and gasoline.
+category: crafting
+size: 4
+health: 2160
+hasItems: true
+hasLiquids: true
+hasPower: true
+outputsLiquid: true
+itemCapacity: 20
+liquidCapacity: 480
+rotate: true
+rotateDraw: false
+
+
+consumes:{
+power: 6
+liquids: [
+    heavy-oil/0.8
+    water: 0.2
+]
+}
+
+requirements:[
+lead/600
+titanium/400
+metaglass/200
+graphite/500
+silicon/200
+plastanium/150
+]
+
+outputLiquids:[
+{
+liquid: kerosene
+amount: 0.3
+}
+{
+liquid: gasoline
+amount: 0.2
+}
+{
+liquid: diesel
+amount: 0.3
+}
+]
+liquidOutputDirections: [1, 0, 3]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: diesel
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -layer1
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: kerosene
+      padding: 7
+    }
+    {
+      type: DrawRegion
+      suffix: -layer2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gasoline
+      padding: 11
+    }
+    {
+      type: DrawRegion
+      suffix: -layer3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oil
+      padding: 13
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawLiquidOutputs
+    }
+  ]
+}
