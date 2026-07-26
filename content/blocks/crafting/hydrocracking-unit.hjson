@@ -75,7 +75,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: heavy-oil
-      padding: 11
+      padding: 12
     }
     {
       type: DrawDefault
