@@ -193,7 +193,6 @@ type: BasicBulletType
           length: 12
           lifetime: 120
           interp: circleOut
-          sizeInterp: expOut
           cone: 180
           colorFrom: feb380
           colorTo: 707070
@@ -206,7 +205,6 @@ type: BasicBulletType
           length: 12
           lifetime: 120
           interp: circleOut
-          sizeInterp: expOut
           cone: 180
           colorFrom: feb380
           colorTo: 707070
