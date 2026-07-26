@@ -10,7 +10,7 @@ lead/30
 silicon/20
 ]
 consumes: {
-  liquid: gasoline/0.01666665
+  liquid: gasoline/0.0166666
 }
 hasLiquids: true
 liquidCapacity: 10
