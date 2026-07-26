@@ -19,10 +19,11 @@ lead/50
     unit: quasar
     requirements: [
 silicon/250
+lead/50
 graphite/50
 titanium/100
 metaglass/50
-lead/50
+plastanium/50
     ]
     time: 2400
   }
@@ -33,6 +34,7 @@ silicon/200
 graphite/100
 titanium/100
 metaglass/50
+plastanium/50
     ]
     time: 2100
   }
