@@ -193,11 +193,12 @@ type: BasicBulletType
           length: 12
           lifetime: 120
           interp: circleOut
+          sizeInterp: expOut
           cone: 180
-          colorFrom: ffdd9e
+          colorFrom: feb380
           colorTo: 707070
-          sizeFrom: 6
-          sizeTo: 0.6
+          sizeFrom: 4
+          sizeTo: 0
         }
       hitEffect: {
           type: ParticleEffect
@@ -205,11 +206,12 @@ type: BasicBulletType
           length: 12
           lifetime: 120
           interp: circleOut
+          sizeInterp: expOut
           cone: 180
-          colorFrom: ffdd9e
+          colorFrom: feb380
           colorTo: 707070
-          sizeFrom: 6
-          sizeTo: 0.6
+          sizeFrom: 4
+          sizeTo: 0
         }
      }
 }
