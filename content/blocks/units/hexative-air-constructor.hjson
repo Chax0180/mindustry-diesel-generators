@@ -11,17 +11,19 @@ silicon/200
 graphite/50
 titanium/100
 metaglass/50
+plastanium/50
     ]
     time: 1800
   }
   {
     unit: mega
     requirements: [
+lead/50
 silicon/240
 graphite/50
 titanium/100
 metaglass/50
-lead/50
+plastanium/50
     ]
     time: 2100
   }
@@ -34,6 +36,7 @@ titanium/400
 thorium/600
 metaglass/200
 silicon/200
+plastanium/50
 ]
 research: exponential-reconstructor
 category:units
