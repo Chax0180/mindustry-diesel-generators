@@ -192,8 +192,8 @@ type: BasicBulletType
       width: 10
       height: 0.01
       hittable: false
-      despawnEffect: rocketSmokeLarge
-      hitEffect: rocketSmokeLarge
+      despawnEffect: fuelBurn
+      hitEffect: fuelBurn
      }
 }
 }
