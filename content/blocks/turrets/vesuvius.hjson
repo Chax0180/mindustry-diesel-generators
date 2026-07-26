@@ -192,8 +192,20 @@ type: BasicBulletType
       width: 10
       height: 0.01
       hittable: false
-      despawnEffect: fireSmoke
-      hitEffect: fireSmoke
+      despawnEffect: {
+      type: MultiEffect
+      effects:[
+      {type: fireSmoke}
+      {type: firehit}
+      ]
+      }
+      hitEffect: {
+      type: MultiEffect
+      effects:[
+      {type: fireSmoke}
+      {type: firehit}
+      ]
+      }
      }
 }
 }
