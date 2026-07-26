@@ -199,7 +199,7 @@ type: BasicBulletType
       type: fireSmoke
       }
       {
-      type: shootBigSmoke
+      type: smoke
       }
       ]
       }
@@ -210,7 +210,7 @@ type: BasicBulletType
       type: fireSmoke
       }
       {
-      type: shootBigSmoke
+      type: smoke
       }
       ]
       }
