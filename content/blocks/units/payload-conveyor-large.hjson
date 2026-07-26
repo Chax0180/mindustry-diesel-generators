@@ -16,6 +16,9 @@ requirements: [
   graphite/50
   thorium/10
 ]
+  consumes: {
+power: 0.5
+}
 
 category: units
 research:payload-conveyor
