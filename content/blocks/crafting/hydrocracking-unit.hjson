@@ -12,6 +12,7 @@ itemCapacity: 20
 liquidCapacity: 480
 rotate: true
 rotateDraw: false
+ignoreLiquidFullness: true
 
 
 consumes:{
