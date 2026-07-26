@@ -1,0 +1,46 @@
+type: ConsumeGenerator
+name: Diesel Engine
+description: Generates power by combusting diesel.
+size: 3
+category: power
+research: hydrocracking-unit
+  
+requirements: [
+lead/30
+silicon/20
+]
+consumes: {
+  liquid: gasoline/0.0166666
+}
+hasLiquids: true
+liquidCapacity: 10
+powerProduction: 12
+  
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.18
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gasoline
+      padding: 3
+    }
+    {
+      type: DrawPistons
+      suffix: -piston
+      sinMag: 1
+      sinScl: 2
+      sideOffset: 15
+      lenOffset: -0.1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
