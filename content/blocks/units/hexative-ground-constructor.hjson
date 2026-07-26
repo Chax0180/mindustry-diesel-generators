@@ -45,11 +45,11 @@ thorium/600
 metaglass/200
 silicon/200
 ]
-research: tetrative-reconstructor
+research: exponential-reconstructor
 category:units
   consumes: {
 liquid: gasoline/0.2
 power: 12
 }
-ambientSound: respawning
+ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
