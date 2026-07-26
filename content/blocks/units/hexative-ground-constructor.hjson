@@ -7,49 +7,49 @@ plans: [
   {
     unit: fortress
     requirements: [
-silicon/190
+silicon/200
 graphite/50
-titanium/90
+titanium/100
 metaglass/50
-lead/20
+lead/50
     ]
     time: 1800
   }
   {
     unit: quasar
     requirements: [
-silicon/210
+silicon/250
 graphite/50
 titanium/100
 metaglass/50
-lead/30
+lead/50
     ]
     time: 2400
   }
   {
     unit: spiroct
     requirements: [
-silicon/188
-graphite/50
-titanium/90
+silicon/200
+graphite/100
+titanium/100
 metaglass/50
-coal/20
     ]
     time: 2100
   }
 ]
 requirements: [
-copper/250
-lead/890
-titanium/350
-thorium/650
-metaglass/120
-silicon/170
+copper/300
+lead/900
+titanium/400
+thorium/600
+metaglass/200
+silicon/200
 ]
 research: tetrative-reconstructor
 category:units
   consumes: {
-liquid: cryofluid/0.2
+liquid: gasoline/0.2
+power: 12
 }
 ambientSound: respawning
 ambientSoundVolume: 0.15
