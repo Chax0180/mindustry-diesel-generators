@@ -1,0 +1,43 @@
+type: UnitFactory
+name: Hexative Air Constructor
+description: Produces third tier air units. Output units can be used directly, or moved into reconstructors for upgrarding.
+seperateItemCapacity: true
+size: 5
+plans: [
+  {
+    unit: zenith
+    requirements: [
+silicon/195
+graphite/50
+titanium/90
+metaglass/50
+    ]
+    time: 1800
+  }
+  {
+    unit: mega
+    requirements: [
+silicon/210
+graphite/50
+titanium/90
+metaglass/50
+lead/35
+    ]
+    time: 2100
+  }
+]
+requirements: [
+copper/260
+lead/760
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
+]
+research: tetrative-reconstructor
+category:units
+  consumes: {
+liquid: cryofluid/0.2
+}
+ambientSound: respawning
+ambientSoundVolume: 0.15
