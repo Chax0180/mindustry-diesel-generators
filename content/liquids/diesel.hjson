@@ -2,7 +2,7 @@ name: Diesel
 description: Used for the production of energy. Not as easily flammable or explosive as gasoline.
 
 coolant: false
-color: dae396
+color: c8d147
 explosiveness: 0.4
 flammability: 0.25
 
