@@ -7,11 +7,13 @@ plans: [
   {
     unit: fortress
     requirements: [
+lead/50
 silicon/200
 graphite/50
 titanium/100
 metaglass/50
-lead/50
+plastanium/50
+
     ]
     time: 1800
   }
