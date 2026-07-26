@@ -39,6 +39,7 @@ research: exponential-reconstructor
 category:units
   consumes: {
 liquid: kerosene/0.2
+power: 12
 }
 ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
