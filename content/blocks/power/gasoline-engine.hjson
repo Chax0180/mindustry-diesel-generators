@@ -6,11 +6,13 @@ category: power
 research: fractional-distiller
   
 requirements: [
-lead/30
-silicon/20
+lead/60
+metaglass/20
+graphite/30
+silicon/40
 ]
 consumes: {
-  liquid: gasoline/0.0166666
+  liquid: gasoline/0.01666
 }
 hasLiquids: true
 liquidCapacity: 10
