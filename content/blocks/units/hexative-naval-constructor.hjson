@@ -9,17 +9,17 @@ plans: [
     requirements: [
 silicon/200
 graphite/50
-titanium/90
-metaglass/85
+titanium/100
+metaglass/100
     ]
     time: 2400
   }
   {
     unit: cyerce
     requirements: [
-silicon/195
+silicon/200
 graphite/50
-titanium/110
+titanium/150
 metaglass/50
     ]
     time: 3000
@@ -28,15 +28,16 @@ metaglass/50
 requirements: [
 copper/1000
 lead/900
-titanium/350
-thorium/650
-metaglass/120
-silicon/170
+titanium/400
+thorium/600
+metaglass/150
+silicon/200
 ]
-research: tetrative-reconstructor
+research: exponential-reconstructor
 category:units
   consumes: {
-liquid: cryofluid/0.2
+liquid: heavy-oil/0.4
+power: 12
 }
-ambientSound: respawning
+ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
