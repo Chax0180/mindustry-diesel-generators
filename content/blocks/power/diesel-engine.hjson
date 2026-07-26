@@ -13,7 +13,7 @@ silicon/80
 plastanium/40
 ]
 consumes: {
-  liquid: diesel/0.033333
+  liquid: diesel/0.0333333
 }
 hasLiquids: true
 liquidCapacity: 10
