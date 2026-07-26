@@ -49,7 +49,7 @@ research: exponential-reconstructor
 category:units
   consumes: {
 liquid: gasoline/0.2
-power: 12
+power: 0.4
 }
 ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
