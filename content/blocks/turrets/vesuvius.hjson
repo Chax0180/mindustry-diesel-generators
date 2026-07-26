@@ -170,12 +170,7 @@ type: BasicBulletType
     bulletInterval: 2
     intervalRandomSpread: 5
     intervalDelay: 30
-    fragRandomSpread: 5
-    fragBullets: 2
     rangeChange: 80
-fragBullet:{
-type: FireBulletType
-}
 intervalBullet:{
 type: BasicBulletType
       damage: 0
