@@ -38,7 +38,7 @@ silicon/200
 research: exponential-reconstructor
 category:units
   consumes: {
-liquid: kerosene/0.2
+liquid: kerosene/0.4
 power: 12
 }
 ambientSound: loopUnitCreate
