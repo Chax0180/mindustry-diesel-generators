@@ -1,0 +1,55 @@
+type: UnitFactory
+name: Hexative Ground Constructor
+description: Produces third tier ground units. Output units can be used directly, or moved into reconstructors for upgrarding.
+seperateItemCapacity: true
+size: 5
+plans: [
+  {
+    unit: fortress
+    requirements: [
+silicon/190
+graphite/50
+titanium/90
+metaglass/50
+lead/20
+    ]
+    time: 1800
+  }
+  {
+    unit: quasar
+    requirements: [
+silicon/210
+graphite/50
+titanium/100
+metaglass/50
+lead/30
+    ]
+    time: 2400
+  }
+  {
+    unit: spiroct
+    requirements: [
+silicon/188
+graphite/50
+titanium/90
+metaglass/50
+coal/20
+    ]
+    time: 2100
+  }
+]
+requirements: [
+copper/250
+lead/890
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
+]
+research: tetrative-reconstructor
+category:units
+  consumes: {
+liquid: cryofluid/0.2
+}
+ambientSound: respawning
+ambientSoundVolume: 0.15

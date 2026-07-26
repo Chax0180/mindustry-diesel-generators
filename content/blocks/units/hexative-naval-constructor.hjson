@@ -1,0 +1,42 @@
+type: UnitFactory
+name: Hexative Naval Constructor
+description: Produces third tier naval units. Output units can be used directly, or moved into reconstructors for upgrarding.
+seperateItemCapacity: true
+size: 5
+plans: [
+  {
+    unit: bryde
+    requirements: [
+silicon/200
+graphite/50
+titanium/90
+metaglass/85
+    ]
+    time: 2400
+  }
+  {
+    unit: cyerce
+    requirements: [
+silicon/195
+graphite/50
+titanium/110
+metaglass/50
+    ]
+    time: 3000
+  }
+]
+requirements: [
+copper/1000
+lead/900
+titanium/350
+thorium/650
+metaglass/120
+silicon/170
+]
+research: tetrative-reconstructor
+category:units
+  consumes: {
+liquid: cryofluid/0.2
+}
+ambientSound: respawning
+ambientSoundVolume: 0.15

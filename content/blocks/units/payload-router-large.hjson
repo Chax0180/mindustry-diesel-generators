@@ -1,0 +1,22 @@
+type: PayloadRouter
+name: Large Payload Router
+size: 5
+moveTime: 90
+moveForce: 402
+payloadLimit: 5
+
+description: Splits input payloads into 3 output directions. Functions as a sorter when a filter is set. Magnetic. Usable in zero-G environments.
+
+health: 720
+size: 5
+
+requirements: [
+  copper/50
+  lead/25
+  graphite/60
+  thorium/10
+  silicon/25
+]
+
+category: units
+research: payload-router
