@@ -195,15 +195,23 @@ type: BasicBulletType
       despawnEffect: {
       type: MultiEffect
       effects:[
-      {type: fireSmoke}
-      {type: firehit}
+      {
+      type: fireSmoke
+      }
+      {
+      type: firehit
+      }
       ]
       }
       hitEffect: {
       type: MultiEffect
       effects:[
-      {type: fireSmoke}
-      {type: firehit}
+      {
+      type: fireSmoke
+      }
+      {
+      type: firehit
+      }
       ]
       }
      }
