@@ -48,8 +48,8 @@ silicon/200
 research: exponential-reconstructor
 category:units
   consumes: {
-liquid: gasoline/0.2
-power: 0.4
+liquid: gasoline/0.4
+power: 12
 }
 ambientSound: loopUnitCreate
 ambientSoundVolume: 0.15
