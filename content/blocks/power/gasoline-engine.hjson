@@ -14,7 +14,7 @@ consumes: {
 }
 hasLiquids: true
 liquidCapacity: 10
-powerProduction: 6
+powerProduction: 12
   
 ambientSound: loopMachineSpin
 ambientSoundVolume: 0.18
