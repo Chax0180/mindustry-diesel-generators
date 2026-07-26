@@ -6,18 +6,21 @@ category: power
 research: hydrocracking-unit
   
 requirements: [
-lead/30
-silicon/20
+lead/100
+metaglass/40
+graphite/80
+silicon/80
+plastanium/40
 ]
 consumes: {
-  liquid: gasoline/0.0166666
+  liquid: diesel/0.033333
 }
 hasLiquids: true
 liquidCapacity: 10
-powerProduction: 12
+powerProduction: 31.61666
   
-ambientSound: loopMachineSpin
-ambientSoundVolume: 0.18
+ambientSound: loopCombustion
+ambientSoundVolume: 0.36
 squareSprite: false
 drawer: {
   type: DrawMulti
@@ -28,7 +31,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: gasoline
+      drawLiquid: diesel
       padding: 3
     }
     {
