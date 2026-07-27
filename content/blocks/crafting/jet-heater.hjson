@@ -2,7 +2,7 @@ type: HeatProducer
 name: Jet Heater
 description: Burns Kerosene to produce a large amount of heat.
 size: 3
-heatOutput: 12
+heatOutput: 18
 category: crafting
 requirements:[
 titanium/80
