@@ -17,10 +17,7 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect: {
-impactReactorExplosion
-layer: 1
-}
+craftEffect: impactReactorExplosion
 craftTime: 5
 
 drawer:{
