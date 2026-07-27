@@ -48,3 +48,5 @@ drawers: [
 }
 ]
 }
+ambientSound: loopMachine2
+ambientSoundVolume: 0.5
