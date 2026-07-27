@@ -25,12 +25,19 @@ drawers: [
 }
 {
   type: DrawCrucibleFlame
+  flameRad: 2
+  circleSpace: 3
+  particles: 50
+}
+{
+  type: DrawSoftParticles
 }
 {
   type: DrawDefault
 }
 {
   type: DrawHeatOutput
+  heatColor: ff38384d
 }
 ]
 }
