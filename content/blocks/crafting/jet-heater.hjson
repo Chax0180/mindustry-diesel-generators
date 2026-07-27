@@ -32,7 +32,6 @@ drawers: [
     colorTo: ababab
     sizeFrom: 10
     sizeTo: 0
-    layer: 1
   }
 }
 {
