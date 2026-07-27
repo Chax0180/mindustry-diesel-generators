@@ -40,7 +40,7 @@ drawer: {
       sinMag: 1.35
       sinScl: 1
       sides: 8
-      sideOffset: 15
+      sideOffset: 1.57079
       lenOffset: -0.5
     }
   ]
