@@ -18,7 +18,8 @@ liquids: [
 ]
 }
 craftEffect: {
-type: impactReactorExplosion
+impactReactorExplosion
+layer: 1
 }
 craftTime: 5
 
