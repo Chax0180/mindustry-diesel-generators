@@ -18,7 +18,7 @@ liquids: [
 ]
 }
 craftEffect:{
-type: blockExplosionSmoke
+type: impactReactorExplosion
 layer: 0
 }
 craftTime: 5
