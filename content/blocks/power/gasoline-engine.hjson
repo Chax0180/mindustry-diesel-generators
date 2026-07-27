@@ -38,7 +38,7 @@ drawer: {
       suffix: -piston
       sinMag: 1
       sinScl: 2
-      sideOffset: 15
+      sideOffset: 1.57079633
       lenOffset: -0.1
     }
     {
