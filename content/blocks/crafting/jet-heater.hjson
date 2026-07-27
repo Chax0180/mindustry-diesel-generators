@@ -22,15 +22,6 @@ drawer:{
 type: DrawMulti
 drawers: [
 {
-  type: DrawParticles
-    length: 120
-    reverse: true
-    particleLife: 90
-    color: ababab
-    particleSize: 5
-    particleRad: 15
-}
-{
   type: DrawRegion
   suffix: -bottom
 }
@@ -59,7 +50,8 @@ drawers: [
     reverse: true
     particleLife: 90
     color: ababab
-    particleSize: 10
+    particleSize: 5
+    particleRad: 40
 }
 ]
 }
