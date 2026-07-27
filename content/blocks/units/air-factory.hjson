@@ -1,0 +1,9 @@
+plans: [
+  {
+    unit: eclipse
+    requirements: [
+copper/1
+    ]
+    time: 3600
+  }
+]
