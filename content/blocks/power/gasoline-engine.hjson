@@ -12,7 +12,7 @@ graphite/30
 silicon/40
 ]
 consumes: {
-  liquid: gasoline/0.016666
+  liquid: gasoline/0.01666666
 }
 hasLiquids: true
 liquidCapacity: 10
