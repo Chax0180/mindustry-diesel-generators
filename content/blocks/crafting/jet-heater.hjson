@@ -18,7 +18,7 @@ liquids: [
 ]
 }
 craftEffect:{
-type: coreLandDust
+type: explosion
 layer: 0
 rotWithParent: true
 }
