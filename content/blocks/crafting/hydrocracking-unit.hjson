@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Hydrocracking Unit
-description: Breaks up heavy oil into diesel, kerosene, and gasoline.
+description: Breaks up heavy oil into diesel and kerosene.
 category: crafting
 size: 4
 health: 2160
@@ -15,18 +15,17 @@ rotateDraw: false
 
 
 consumes:{
-power: 6
+power: 10
 liquids: [
-    heavy-oil/0.4
-    water/0.8
-]
-items:[
-silicon/1
+    heavy-oil/0.8
+    water/1.6
 ]
 }
 craftTime: 180
+craftEffect: corrosionVapor
 
 requirements:[
+copper/20
 lead/600
 titanium/400
 metaglass/200
