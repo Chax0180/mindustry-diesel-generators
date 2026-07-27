@@ -17,7 +17,11 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect: coreLandDust
+craftEffect:{
+type: coreLandDust
+layer: 0
+rotWithParent: true
+}
 craftTime: 5
 
 drawer:{
