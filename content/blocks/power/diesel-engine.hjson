@@ -43,8 +43,5 @@ drawer: {
       sideOffset: 15
       lenOffset: -0.5
     }
-    {
-      type: DrawDefault
-    }
   ]
 }
