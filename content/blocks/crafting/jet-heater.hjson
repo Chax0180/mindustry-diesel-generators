@@ -17,9 +17,8 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect:{
+craftEffect: {
 type: impactReactorExplosion
-layer: 0
 }
 craftTime: 5
 
