@@ -22,18 +22,6 @@ drawer:{
 type: DrawMulti
 drawers: [
 {
-  type: DrawParticles
-    particles: 5
-    length: 120
-    lifetime: 90
-    interp: circleOut
-    cone: 180
-    colorFrom: ffffff
-    colorTo: ababab
-    sizeFrom: 10
-    sizeTo: 0
-  }
-{
   type: DrawRegion
   suffix: -bottom
 }
@@ -56,6 +44,18 @@ drawers: [
   type: DrawHeatOutput
   heatColor: ff38384d
 }
+{
+  type: DrawParticles
+    particles: 5
+    length: 120
+    lifetime: 90
+    interp: circleOut
+    cone: 180
+    colorFrom: ffffff
+    colorTo: ababab
+    sizeFrom: 10
+    sizeTo: 0
+  }
 ]
 }
 ambientSound: loopMachine2
