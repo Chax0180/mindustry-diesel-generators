@@ -13,11 +13,11 @@ silicon/80
 plastanium/40
 ]
 consumes: {
-  liquid: diesel/0.0333333
+  liquid: diesel/0.033333333
 }
 hasLiquids: true
 liquidCapacity: 10
-powerProduction: 31.61666
+powerProduction: 31.616666666666666666
   
 ambientSound: loopCombustion
 ambientSoundVolume: 0.36
