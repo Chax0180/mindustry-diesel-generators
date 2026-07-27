@@ -27,7 +27,8 @@ drawers: [
     reverse: true
     particleLife: 90
     color: ababab
-    particleSize: 10
+    particleSize: 5
+    particleRad: 15
 }
 {
   type: DrawRegion
