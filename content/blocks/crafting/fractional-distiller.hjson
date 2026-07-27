@@ -9,7 +9,7 @@ hasLiquids: true
 hasPower: true
 outputsLiquid: true
 itemCapacity: 20
-liquidCapacity: 480
+liquidCapacity: 48
 rotate: true
 rotateDraw: false
 
