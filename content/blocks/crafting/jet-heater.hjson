@@ -17,8 +17,12 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect: {
-    type: ParticleEffect
+
+drawer:{
+type: DrawMulti
+drawers: [
+{
+  type: DrawParticles
     particles: 3
     length: 40
     lifetime: 90
@@ -30,11 +34,7 @@ craftEffect: {
     sizeTo: 0
     layer: 1
   }
-craftTime: 5
-
-drawer:{
-type: DrawMulti
-drawers: [
+}
 {
   type: DrawRegion
   suffix: -bottom
