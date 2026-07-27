@@ -1,0 +1,30 @@
+type: HeatProducer
+name: Jet Heater
+description: Burns Kerosene to produce a large amount of heat.
+size: 3
+heatOutput: 12
+
+consumes:[
+liquids:{
+kerosene/0.1
+}
+power: 3
+]
+
+drawer:{
+type: DrawMulti:[
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+  type: DrawCrucibleFlame
+}
+{
+  type: DrawDefault
+}
+{
+  type: DrawHeatOutput
+}
+]
+}
