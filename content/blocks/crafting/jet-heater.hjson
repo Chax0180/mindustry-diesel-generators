@@ -11,10 +11,12 @@ thorium/50
 metaglass/80
 ]
 
-consumes:[
-liquid: kerosene/0.1
+consumes:{
 power: 3
+liquids: [
+    kerosene/0.1
 ]
+}
 
 drawer:{
 type: DrawMulti
@@ -30,7 +32,10 @@ drawers: [
   particles: 50
 }
 {
-  type: DrawSoftParticles
+  type: DrawArcSmelt
+  flameRad: 2
+  particles: 50
+  
 }
 {
   type: DrawDefault
