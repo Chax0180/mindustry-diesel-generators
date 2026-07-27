@@ -17,6 +17,8 @@ liquids: [
     kerosene/0.1
 ]
 }
+craftEffect: coreLandDust
+craftTime: 5
 
 drawer:{
 type: DrawMulti
