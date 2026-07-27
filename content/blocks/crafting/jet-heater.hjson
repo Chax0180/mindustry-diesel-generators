@@ -33,7 +33,6 @@ drawers: [
     sizeFrom: 10
     sizeTo: 0
   }
-}
 {
   type: DrawRegion
   suffix: -bottom
