@@ -17,7 +17,11 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect: blockExplosionSmoke
+craftEffect:{
+type: blockExplosionSmoke
+layer: 0
+
+}
 craftTime: 5
 
 drawer:{
