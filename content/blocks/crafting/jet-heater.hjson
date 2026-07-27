@@ -20,14 +20,15 @@ liquids: [
 craftEffect: {
     type: ParticleEffect
     particles: 3
-    length: 20
-    lifetime: 60
+    length: 40
+    lifetime: 90
     interp: circleOut
     cone: 180
     colorFrom: ffffff
     colorTo: ababab
     sizeFrom: 10
     sizeTo: 0
+    layer: 1
   }
 craftTime: 5
 
