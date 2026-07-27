@@ -17,7 +17,18 @@ liquids: [
     kerosene/0.1
 ]
 }
-craftEffect: impactReactorExplosion
+craftEffect: {
+    type: ParticleEffect
+    particles: 3
+    length: 20
+    lifetime: 60
+    interp: circleOut
+    cone: 180
+    colorFrom: ffffff
+    colorTo: ababab
+    sizeFrom: 10
+    sizeTo: 0
+  }
 craftTime: 5
 
 drawer:{
