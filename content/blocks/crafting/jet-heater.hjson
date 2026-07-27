@@ -52,7 +52,14 @@ drawers: [
   type: DrawHeatOutput
   heatColor: ff38384d
 }
-
+{
+  type: DrawParticles
+    length: 120
+    reverse: true
+    particleLife: 90
+    color: ababab
+    particleSize: 10
+}
 ]
 }
 ambientSound: loopMachine2
