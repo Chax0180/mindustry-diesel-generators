@@ -23,8 +23,8 @@ type: DrawMulti
 drawers: [
 {
   type: DrawParticles
-    particles: 3
-    length: 40
+    particles: 5
+    length: 120
     lifetime: 90
     interp: circleOut
     cone: 180
