@@ -28,7 +28,7 @@ drawers: [
     particleLife: 90
     color: ababab
     particleSize
-  }
+}
 {
   type: DrawRegion
   suffix: -bottom
