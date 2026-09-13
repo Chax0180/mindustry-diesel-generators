@@ -22,3 +22,4 @@ liquids: [
     kerosene/0.2
 ]
 }
+launchTime: 60
