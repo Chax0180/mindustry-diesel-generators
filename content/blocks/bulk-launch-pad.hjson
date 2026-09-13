@@ -1,0 +1,24 @@
+type: LaunchPad
+
+name: Bulk Launch Pad
+description: Launches batches of items to selected sectors. Only accepts one item type at a time. Can launch significantly faster than a regular launch pad.
+scaledHealth: 45
+size: 6
+requirements:[
+copper/1000
+lead/800
+plastanium/400
+silicon/1000
+metaglass/500
+graphite/800
+]
+
+itemCapacity: 100
+liquidCapacity: 80
+
+consumes:{
+power: 10.6666666
+liquids: [
+    kerosene/0.2
+]
+}
