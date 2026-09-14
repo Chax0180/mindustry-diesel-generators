@@ -1,6 +1,8 @@
 type: HeatProducer
 name: Jet Heater
 description: Burns Kerosene to produce a large amount of heat.
+research: hydrocracking-unit
+
 size: 3
 heatOutput: 18
 category: crafting
