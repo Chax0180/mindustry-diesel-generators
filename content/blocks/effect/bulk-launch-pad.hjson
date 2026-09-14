@@ -21,7 +21,7 @@ liquidCapacity: 80
 consumes:{
 power: 10.6666666
 liquids: [
-    kerosene/0.1333333
+    kerosene/0.133333333333
 ]
 }
 launchTime: 600
