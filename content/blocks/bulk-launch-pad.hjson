@@ -23,3 +23,5 @@ liquids: [
 ]
 }
 launchTime: 300
+lightSteps: 5
+drawLiquid: kerosene
