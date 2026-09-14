@@ -1,6 +1,8 @@
 type: GenericCrafter
 name: Hydrocracking Unit
 description: Breaks up heavy oil into diesel and kerosene.
+research: fractional-distiller
+
 category: crafting
 size: 4
 health: 2160
