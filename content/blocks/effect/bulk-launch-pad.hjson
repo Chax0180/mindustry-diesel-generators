@@ -25,6 +25,6 @@ liquids: [
 ]
 }
 launchTime: 600
-lightSteps: 5
+lightSteps: 4
 drawLiquid: kerosene
 category: effect
