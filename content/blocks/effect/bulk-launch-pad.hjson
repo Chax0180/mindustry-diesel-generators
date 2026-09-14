@@ -3,6 +3,7 @@ type: LaunchPad
 name: Bulk Launch Pad
 description: Launches batches of items to selected sectors. Only accepts one item type at a time. Can launch significantly more items than a regular launch pad.
 details: Launches a large 2-stage pod with multiple standard pods stored inside.
+research: advanced-launch-pad
 
 scaledHealth: 45
 size: 6
