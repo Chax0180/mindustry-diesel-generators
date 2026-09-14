@@ -24,7 +24,7 @@ liquids: [
     kerosene/0.2
 ]
 }
-launchTime: 900
+launchTime: 600
 lightSteps: 5
 drawLiquid: kerosene
 category: effect
